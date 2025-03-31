@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/minimum-size-subarray-sum/description/
 package main
 
 import "fmt"
@@ -25,14 +26,6 @@ func minSubArrayLen(target int, nums []int) int {
 	}
 
 	return minLength
-}
-
-func sum(numbers []int) int {
-	result := 0
-	for _, n := range numbers {
-		result = result + n
-	}
-	return result
 }
 
 func main() {
